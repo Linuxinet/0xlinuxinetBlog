@@ -6,25 +6,6 @@
     <description>Recent content on 0xlinuxinet Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Vinay Kumar</copyright>
-    <lastBuildDate>Sun, 01 May 2022 07:18:43 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Ctf</title>
-      <link>/posts/ctf/</link>
-      <pubDate>Sun, 01 May 2022 07:18:43 +0000</pubDate>
-      
-      <guid>/posts/ctf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NahamCon2022 Ctf</title>
-      <link>/posts/nahamcon2022-ctf/</link>
-      <pubDate>Sun, 01 May 2022 06:18:25 +0000</pubDate>
-      
-      <guid>/posts/nahamcon2022-ctf/</guid>
-      <description></description>
-    </item>
-    
+    <copyright>© Vinay Kumar</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
