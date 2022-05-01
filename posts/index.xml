@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Vinay Kumar</copyright>
-    <lastBuildDate>Sun, 01 May 2022 06:18:25 +0000</lastBuildDate><atom:link href="https://linuxinet.github.io/0xlinuxinetBlog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 May 2022 07:18:43 +0000</lastBuildDate><atom:link href="https://linuxinet.github.io/0xlinuxinetBlog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ctf</title>
+      <link>https://linuxinet.github.io/0xlinuxinetBlog/posts/ctf/</link>
+      <pubDate>Sun, 01 May 2022 07:18:43 +0000</pubDate>
+      
+      <guid>https://linuxinet.github.io/0xlinuxinetBlog/posts/ctf/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>NahamCon2022 Ctf</title>
       <link>https://linuxinet.github.io/0xlinuxinetBlog/posts/nahamcon2022-ctf/</link>
