@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://linuxinet.github.io/0xlinuxinetBlog/</loc>
+    <loc>/</loc>
     <lastmod>2022-05-01T07:18:43+00:00</lastmod>
   </url><url>
-    <loc>https://linuxinet.github.io/0xlinuxinetBlog/posts/ctf/</loc>
+    <loc>/posts/ctf/</loc>
     <lastmod>2022-05-01T07:18:43+00:00</lastmod>
   </url><url>
-    <loc>https://linuxinet.github.io/0xlinuxinetBlog/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2022-05-01T07:18:43+00:00</lastmod>
   </url><url>
-    <loc>https://linuxinet.github.io/0xlinuxinetBlog/posts/nahamcon2022-ctf/</loc>
+    <loc>/posts/nahamcon2022-ctf/</loc>
     <lastmod>2022-05-01T06:18:25+00:00</lastmod>
   </url><url>
-    <loc>https://linuxinet.github.io/0xlinuxinetBlog/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>https://linuxinet.github.io/0xlinuxinetBlog/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>
