@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html><head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>NahamCon2022 Ctf - 0xlinuxinet Blog</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>NahamCon2022 CTF - 0xlinuxinet Blog</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Blog Contains Solutions for NahamCon2022 CTF Challenges." />
 	<meta property="og:image" content=""/>
-	<meta property="og:title" content="NahamCon2022 Ctf" />
-<meta property="og:description" content="" />
+	<meta property="og:title" content="NahamCon2022 CTF" />
+<meta property="og:description" content="Blog Contains Solutions for NahamCon2022 CTF Challenges." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/nahamcon2022-ctf/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-05-01T06:18:25+00:00" />
-<meta property="article:modified_time" content="2022-05-01T06:18:25+00:00" />
+<meta property="article:published_time" content="2022-05-01T16:36:29+00:00" />
+<meta property="article:modified_time" content="2022-05-01T16:36:29+00:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="NahamCon2022 Ctf"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="NahamCon2022 CTF"/>
+<meta name="twitter:description" content="Blog Contains Solutions for NahamCon2022 CTF Challenges."/>
 <script src="/js/feather.min.js"></script>
 	
 	
@@ -51,13 +51,136 @@
 <main>
 	<article>
 		<div class="title">
-			<h1 class="title">NahamCon2022 Ctf</h1>
+			<h1 class="title">NahamCon2022 CTF</h1>
 			<div class="meta">Posted on May 1, 2022</div>
 		</div>
 		
 
 		<section class="body">
-			
+			<h1 id="nahamcon2022-ctf">NahamCon2022 CTF</h1>
+<p>This Writeup Includes Solutions For Some of the Challenges.</p>
+<h2 id="challenges">Challenges</h2>
+<ol>
+<li><a href="#quirky">Quirky</a></li>
+<li><a href="#prisoner">Prisoner</a></li>
+<li><a href="#wizard">Wizard</a></li>
+<li><a href="#jurrasic-park">Jurrasic Park</a></li>
+<li><a href="#personnel">Personnel</a></li>
+<li><a href="#when-am-i">When Am I</a></li>
+<li><a href="#one-mantissa-please">One Mantissa Please</a></li>
+<li><a href="#to-be-and-not-to-be">To Be And Not To Be</a></li>
+<li><a href="#gossip">Gossip</a></li>
+<li><a href="#steam-locomative">Steam LocoMative</a></li>
+<li><a href="#keeber">Keeber ( 1 - 8)</a></li>
+</ol>
+<h2 id="quirky">Quirky</h2>
+<p><img src="/quirky.png" alt="Quirky Challenge"></p>
+<p>After Downloading the Challenge File <code>quirky</code> it contains the Following Hex Code</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">\x89\x50\x4e\x47\x0d\x0a\x1a\x0a\x00\x00\x00\x0d\x49\x48\x44\x52\x00\x00\x00\x6f\x00\x00\x00\x6f\x01\x03\x00\x00\x00\xd8\x0b\x0c\x23\x00\x00\x00\x06\x50\x4c\x54\x45\x00\x00\x00\xff\xff\xff\xa5\xd9\x9f\xdd\x00\x00\x00\x02\x74\x52\x4e\x53\xff\xff\xc8\xb5\xdf\xc7\x00\x00\x00\x09\x70\x48\x59\x73\x00\x00\x0b\x12\x00\x00\x0b\x12\x01\xd2\xdd\x7e\xfc\x00\x00\x01\x25\x49\x44\x41\x54\x38\x8d\xd5\xd4\x31\x8e\xc3\x20\x10\x05\xd0\xb1\x5c\xd0\x25\x17\x40\x9a\x6b\xd0\x71\x25\xfb\x02\xb6\xf7\x02\xce\x95\xe8\xb8\x06\x92\x2f\x40\x3a\x0a\x94\xd9\x8f\x23\x45\xbb\xc5\x66\x68\x52\x2c\xa2\xe0\x21\x21\xcf\x0c\x83\x49\x7e\x0d\xfa\x1f\xcc\x44\x8b\xaf\x6b\xb0\x44\xac\xf2\x2e\x75\x72\xe3\x66\xea\x2a\x1d\x0c\x76\xc1\xe7\x82\x9d\x4c\x17\x27\x97\xc8\xd4\x4e\xae\x91\xd6\x62\xbb\x28\x75\x8e\xf5\x1a\xed\x2b\xc8\x37\x44\xbe\x73\xb4\x98\xaf\xf4\xdf\xf0\x1c\xf6\x5a\x7e\x16\xf6\x4f\x66\xb2\x64\x78\xf3\xc7\xee\x3a\xe8\x0f\xac\x25\x10\x39\x56\x79\x2f\x74\x71\xe3\x57\x94\x87\x11\x9d\xf1\xd8\x5b\x6c\x34\x79\x9d\x0f\x8f\xb3\xb2\xfb\x73\x53\xa5\x3b\x36\x33\xa2\xf8\x73\x60\x95\x52\xea\x10\xd3\xc5\xf0\x7e\x46\xf5\x9e\x77\x19\x6f\x6d\x4a\x76\x3a\x25\xa0\x49\xda\x05\xdd\x22\xab\x44\xbe\x38\x28\x25\xcd\xa5\x83\x92\x86\x82\x90\x0e\x14\x53\x67\x44\x1f\xd6\x39\xa0\xfe\xac\xb3\x9d\x95\xdd\x10\x19\x51\x89\x91\x3d\x21\xa4\xec\x58\x25\x3a\x76\xf2\x69\x68\xaf\x4c\x54\xe2\x2d\x2c\x1e\x95\xe4\xec\x59\x27\xae\x52\xd0\xb4\x34\x3c\xf3\x55\x89\x85\xf0\xc3\x71\x17\x0b\xdf\x42\x22\x27\x3a\xf1\x7e\xd1\x2d\x68\xaa\xa2\xb3\xe5\xdb\x3a\x56\xb2\xd1\xf9\xb9\x5f\xee\xa7\xf8\x0d\x69\xf5\x37\x77\x6e\xf8\x09\x97\x00\x00\x00\x00\x49\x45\x4e\x44\xae\x42\x60\x82
+</code></pre></div><p>Used Cyberchef To Decode the Hex</p>
+<p><img src="/Quirky-cyber.png" alt="quirky Cyberchef decode"></p>
+<p><strong>Flag:</strong> <code>flag{b7e2a32f5ae629dcfb1ac210d1f0c032}</code></p>
+<h2 id="prisoner">Prisoner</h2>
+<p><img src="/prisoner.png" alt="Prisoner Challenge"></p>
+<p>After Connecting to the ssh it showing like this</p>
+<p><img src="/prisoner-1.png" alt="prisoner ssh"></p>
+<p>Press <code>ctrl+c</code> now we break the console and landed in to python terminal
+from that i got the shell and retrieved flag
+<code>pty.spawn('/bin/sh')</code></p>
+<p><img src="/prisoner-flag.png" alt="prisoner flag"></p>
+<p>finally we got the flag</p>
+<p><strong>Flag :</strong> <code>flag{c31e05a24493a202fad0d1a827103642}</code></p>
+<h2 id="wizard">Wizard</h2>
+<p><img src="/wizard.png" alt="wizard challenge"></p>
+<p>this challenge contains some questions we need to answer</p>
+<p><img src="/wizard1.png" alt="wizard 1"></p>
+<p>By Using Cyberchef We were able to complete first 2 questions</p>
+<h3 id="1--2">1 &amp; 2</h3>
+<p><img src="/wizard2.png" alt="wizard 2"></p>
+<p><img src="/wizard3.png" alt="wizard 3"></p>
+<h3 id="3">3</h3>
+<p>for 3rd question used <a href="https://www.rapidtables.com/convert/number/octal-to-decimal.html">https://www.rapidtables.com/convert/number/octal-to-decimal.html</a> to solve the challenge</p>
+<p>Octal -&gt; Decimal</p>
+<p>Decimal -&gt; Hex</p>
+<p>Hex -&gt; Text</p>
+<p><img src="/wizard4.png" alt="wizard 4"></p>
+<h3 id="4">4</h3>
+<p>for the 4th question we need to convert the integer into hex and again convert the hex into text format</p>
+<p>Decimal -&gt; Hex -&gt; Text</p>
+<p><img src="/wizard6.png" alt="wizard 6"></p>
+<h3 id="5">5</h3>
+<p>Decode Base64 string to plaintext</p>
+<p><img src="/wizard7.png" alt="wizard 7"></p>
+<h3 id="6">6</h3>
+<p>for the last question , it was somehow tricky, in this question we need to convert the little endian Hex string in Big endian Plain Text form, so first we need to convert the string from little endian to big endian hex string</p>
+<p><em>little endian Hex:</em> <code>293a2065636e657265666669642065687420776f6e6b206f7420646f6f672073277449</code></p>
+<p>i used this online converter
+<a href="https://www.save-editor.com/tools/wse_hex.html">https://www.save-editor.com/tools/wse_hex.html</a></p>
+<p><em>Big endian Hex:</em> <code>4974277320676F6F6420746F206B6E6F772074686520646966666572656E6365203A29</code></p>
+<p>converted the Big endian Hex into plaitext</p>
+<p><img src="/wizard8.png" alt="wizard 8"></p>
+<p>By solving the final question we got the flag</p>
+<p><strong>Flag :</strong> <code>flag{c2ed35aba037cd93381b298caa2720ee}</code></p>
+<h2 id="jurrasic-park">Jurrasic Park</h2>
+<p><img src="/jurasicpark.png" alt="jurrasic park"></p>
+<p><img src="/jurasic1.png" alt="jurasic"></p>
+<p>opened <code>robots.txt</code> found a directory
+<img src="/jurasicrobo.png" alt="jurasic park robots.txt"></p>
+<p>found flag.txt in <code>/ingen/</code>  direcrory
+<img src="/jurasicingen.png" alt="jirasic park index"></p>
+<p><img src="/jurasicflag.png" alt="flag.txt"></p>
+<h2 id="personnel">Personnel</h2>
+<p><strong>app.py</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#!/usr/bin/env python</span>
+
+<span style="color:#f92672">from</span> flask <span style="color:#f92672">import</span> Flask, Response, abort, request, render_template
+<span style="color:#f92672">import</span> random
+<span style="color:#f92672">from</span> string <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+<span style="color:#f92672">import</span> re
+
+app <span style="color:#f92672">=</span> Flask(__name__)
+
+flag <span style="color:#f92672">=</span> open(<span style="color:#e6db74">&#34;flag.txt&#34;</span>)<span style="color:#f92672">.</span>read()
+users <span style="color:#f92672">=</span> open(<span style="color:#e6db74">&#34;users.txt&#34;</span>)<span style="color:#f92672">.</span>read()
+
+users <span style="color:#f92672">+=</span> flag
+
+
+<span style="color:#a6e22e">@app</span><span style="color:#f92672">.</span>route(<span style="color:#e6db74">&#34;/&#34;</span>, methods<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#34;GET&#34;</span>, <span style="color:#e6db74">&#34;POST&#34;</span>])
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">index</span>():
+    <span style="color:#66d9ef">if</span> request<span style="color:#f92672">.</span>method <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;GET&#34;</span>:
+        <span style="color:#66d9ef">return</span> render_template(<span style="color:#e6db74">&#34;lookup.html&#34;</span>)
+    <span style="color:#66d9ef">if</span> request<span style="color:#f92672">.</span>method <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;POST&#34;</span>:
+        name <span style="color:#f92672">=</span> request<span style="color:#f92672">.</span>form[<span style="color:#e6db74">&#34;name&#34;</span>]
+        setting <span style="color:#f92672">=</span> int(request<span style="color:#f92672">.</span>form[<span style="color:#e6db74">&#34;setting&#34;</span>])
+        <span style="color:#66d9ef">if</span> name:
+            <span style="color:#66d9ef">if</span> name[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>isupper():
+                name <span style="color:#f92672">=</span> name[<span style="color:#ae81ff">1</span>:]
+
+        results <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;[A-Z][a-z]*?&#34;</span> <span style="color:#f92672">+</span> name <span style="color:#f92672">+</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;[a-z]*?\n&#34;</span>, users, setting)
+        results <span style="color:#f92672">=</span> [x<span style="color:#f92672">.</span>strip() <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> results <span style="color:#66d9ef">if</span> x <span style="color:#f92672">or</span> len(x) <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1</span>]
+
+        <span style="color:#66d9ef">return</span> render_template(<span style="color:#e6db74">&#34;lookup.html&#34;</span>, passed_results<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, results<span style="color:#f92672">=</span>results)
+
+
+<span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
+    app<span style="color:#f92672">.</span>run()
+</code></pre></div><p>as we can observe in the code it was taking our <code>name</code> parameter as a variable and giving output matches to the <code>name</code> variable</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">results <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;[A-Z][a-z]*?&#34;</span> <span style="color:#f92672">+</span> name <span style="color:#f92672">+</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;[a-z]*?\n&#34;</span>, users, setting)
+</code></pre></div><p>in this line the <code>name</code> variable was added in to the regex</p>
+<p>so i used a regex pattern which matches to everything</p>
+<p><strong>regex pattern:</strong>
+<code>[\s\S]*</code></p>
+<p>by using this regex as input the website shown all the content with flag</p>
+<p><strong>Flag:</strong>
+<code>flag{f0e659b45b507d8633065bbd2832c627}</code></p>
+<h2 id="when-am-i">When Am I</h2>
+<h2 id="one-mantissa-please">One Mantissa Please</h2>
+<h2 id="to-be-and-not-to-be">To Be And Not To Be</h2>
+<h2 id="gossip">Gossip</h2>
+<h2 id="steam-locomative">Steam LocoMative</h2>
+<h2 id="keeber">Keeber</h2>
+
 		</section>
 
 		<div class="post-tags">
@@ -68,7 +191,7 @@
 	</article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="https://github.com/athul/Linuxinet" title="GitHub"><i data-feather="github"></i></a><a class="soc" href="https://twitter.com/R007_BR34K3R" title="Twitter"><i data-feather="twitter"></i></a></div>
+  <div style="display:flex"><a class="soc" href="https://github.com/Linuxinet" title="GitHub"><i data-feather="github"></i></a><a class="soc" href="https://twitter.com/R007_BR34K3R" title="Twitter"><i data-feather="twitter"></i></a></div>
   <div class="footer-info">
     2022  © Vinay Kumar |  <a
       href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
